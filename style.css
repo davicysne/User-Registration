@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px 0px;
+    border-radius: 5px;
+    justify-content:center ;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: rgb(0, 0, 0.80)0px 5px 15px;
+}
+legend {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+label {
+    margin:15px 0px ;
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 21px;
+    transition: all 0.3s;
+}
+
+label:hover {
+    opacity: 1;
+}
+
+input {
+    padding: 8px 4px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px 0px;
+    margin-top: 10px;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+main {
+    background-image: url("pexels-photo-631909.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
